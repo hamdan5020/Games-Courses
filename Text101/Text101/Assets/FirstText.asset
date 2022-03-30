@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d4511cc5ee86c6489ddc4cc86741e70, type: 3}
+  m_Name: FirstText
+  m_EditorClassIdentifier: 
+  storyText: "You were awakend very early in the morning by the sound of aggresive
+    knocking on your front door.\r\nit seems that the person behind the door was in
+    a rush to get in.\r\n\r\n1- Open the door.\r\n2- tell them to get lost and if
+    they don't call the cops."
+  nextStates:
+  - {fileID: 11400000, guid: 497d1f60e6b2efd46833f1db6c500b56, type: 2}
+  - {fileID: 11400000, guid: 406cc56c4cd52184a82f04b9a04eb12c, type: 2}
